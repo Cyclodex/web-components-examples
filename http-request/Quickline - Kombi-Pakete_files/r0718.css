@@ -1,0 +1,422 @@
+.fce-button {
+    background-color: #d40037;
+    border-radius: 3px;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 18px;
+    padding: .8em 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.text-container {
+    color: #3f287a;
+    font-size: 24px;
+    font-family: globerbold;
+    padding: 0 25px;
+}
+
+
+.threecolumnteaser {
+    background-color: #efefef;
+    height: 150px;
+    padding-top:4%;
+}
+
+.threecolumnteaser img {
+    margin-top: -100px;
+}
+
+
+@media screen and (max-width: 479px){
+    .threecolumnteaser {
+        height:auto;
+    }
+
+    .text-container {
+        margin-left: 0;
+        margin-right:0;
+    }
+
+    .threecolumnteaser img {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .fce-button {
+        width: 100%;
+        margin-left: 0;
+        margin-right:0;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px){
+    .threecolumnteaser {
+        height:auto;
+    }
+
+    .text-container {
+        margin-left: 5%;
+        margin-right:5%;
+    }
+
+    .threecolumnteaser img {
+        margin-top: 15px;
+        width: 100%;
+    }
+
+    .fce-button {
+        margin-bottom:20px;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .threecolumnteaser {
+        height:100px;
+    }
+
+    .fce-button {
+        margin-left: 0;
+        margin-right: 0;
+        width:100%;
+        font-size: 16px;
+
+    }
+
+    .text-container {
+        margin: 0 10px;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .threecolumnteaser img {
+        margin-top: -55px;
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+    .fce-button {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .threecolumnteaser img {
+        margin-top: -68px;
+
+    }
+
+    .text-container {
+        margin-left: 10px;
+        margin-right:10px;
+    }
+}
+
+
+/* https://forge.cs2.ch/issues/60993 */
+.headerelement .Hero{
+    background-color: transparent;
+    position: relative;
+}
+
+.headerelement .Hero-imageContainer {
+    padding-bottom: 46.875%;
+    position: relative;
+}
+
+.headerelement .Hero-mobileHeadline{
+    color: #fff;
+    -webkit-transform: translateY(-50%);
+    font-family: GloberXBold;
+    font-size: 30px;
+    font-weight: 400;
+    left: 2rem;
+    letter-spacing: .6px;
+    line-height: 1.16;
+    max-width: 360px;
+    padding-right: 2rem;
+    position: absolute;
+    top: 66.6%;
+    transform: translateY(-50%);
+    z-index: 10;
+}
+
+.headerelement .Hero-disruptor {
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    -webkit-box-sizing: border-box;
+    -webkit-transform: rotate(17deg);
+    background-color: #d40037;
+    border-radius: 800px;
+    bottom: -1.25em;
+    box-sizing: border-box;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    font-family: GloberXBold;
+    font-weight: 400;
+    height: 90px;
+    justify-content: center;
+    padding: 1em;
+    position: absolute;
+    right: -.25em;
+    text-align: center;
+    transform: rotate(17deg);
+    width: 90px;
+    z-index: 10;
+}
+
+.headerelement .Hero-disruptor.hidden {
+    display: none;
+}
+
+.headerelement .Hero-image {
+    display: block;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.headerelement .Hero-limiter {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+    padding: 2rem;
+   /* padding-top: 2rem;
+    padding-bottom: 2rem;*/
+    width: 100%;
+}
+
+.headerelement .Hero-headline {
+    color: #fff;
+    display: block;
+    font-family: GloberXBold;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: .6px;
+    line-height: 1.16;
+    text-transform: none;
+}
+
+.headerelement .Hero-headline h1,
+.headerelement .Hero-headline h2,
+.headerelement .Hero-headline h3,
+.headerelement .Hero-headline h4,
+.headerelement .Hero-headline h5,
+.headerelement .Hero-headline h6 {
+    color: #fff;
+}
+
+.headerelement .Hero-content.white p,
+.headerelement .Hero-content.white li{
+    color: #fff;
+}
+.headerelement .Hero-content.dark p,
+.headerelement .Hero-content.dark li{
+    color: #000;
+}
+
+
+.headerelement .Hero-content ul,
+.headerelement .Hero-content ul.listincontent
+{
+    margin-top: 0;
+/*    font-size: 14px;*/
+    line-height: 1.5;
+    margin-bottom: 2em;
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.headerelement .Hero-content ul.listincontent li:before {
+    display: none !important;
+}
+
+.headerelement .Hero-content ul li {
+    background-image: url('/typo3conf/ext/template_local/Resources/Public/Images/checkmark.4rg3-0Mg.svg');
+    background-position: left .3em;
+    background-repeat: no-repeat;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    padding-left: 1.5em;
+}
+
+/*.headerelement .Button {
+    background-color: #d40037;
+    border-radius: 3px;
+    color: #fff !important;
+    display: inline-block;
+    font-size: 16px;
+    padding: .5em 1em;
+    text-align: center;
+    text-decoration: none;
+}*/
+
+.headerelement .Hero-disruptorHeadline {
+    font-size: 11px;
+    line-height: 1.2;
+    margin-bottom: .33em;
+}
+
+.headerelement .Hero-content {
+    max-width: 600px;
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .headerelement .Hero-mobileHeadline {
+       /* font-size: 45px;
+        max-width: 450px;*/
+
+    }
+
+    .headerelement .Hero-disruptorHeadline {
+        font-size: 15px;
+    }
+
+    .headerelement .Hero-disruptor {
+        height: 120px;
+        right: 1em;
+        top: 1em;
+        width: 120px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .headerelement .Hero-limiter {
+        -webkit-transform: translateY(-50%);
+        padding-bottom: 3rem;
+        padding-top: 5rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .headerelement .Hero-disruptor {
+        display: flex;
+        top:2em;
+        right:1.75em;
+        width: 140px;
+        height: 140px;
+
+    }
+
+    .headerelement .Hero-disruptorHeadline {
+        font-size:11px;
+    }
+
+    .headerelement .Hero-disruptorText {
+        font-size:9px;
+    }
+
+
+    .headerelement .Hero-mobileHeadline {
+        display: none;
+    }
+
+    .headerelement .Hero-headline {
+        font-size: 40px;
+    }
+
+    .headerelement .Hero-content {
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .headerelement .btn-primary {
+        font-size: 18px;
+    }
+
+    .headerelement .Hero-disruptorHeadline {
+        font-size: 17px;
+    }
+
+    .headerelement .Hero-disruptorText {
+        font-size: 12px;
+    }
+
+    .headerelement .Hero-content ul li {
+        color: #fff;
+    }
+
+    .headerelement .Hero-mobileHeadline {
+        display: none;
+
+    }
+
+    .headerelement .Hero-limiter {
+        -webkit-transform: translateY(-50%);
+        padding-bottom: 3rem;
+        padding-top: 5rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .headerelement .Hero-disruptor {
+        height: 175px;
+        right: 2em;
+        top: 2em;
+        width: 175px;
+    }
+
+    .headerelement .Hero-content ul {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .headerelement .Hero-headline {
+        display: none;
+    }
+
+    .headerelement .Hero-disruptor {
+        display: none;
+    }
+
+
+    .headerelement .Hero-content.white p,
+    .headerelement .Hero-content.white li{
+        color: #000 !important; /*the text should be always black on mobile*/
+    }
+}
+
+.main-footer .footer-top h3 a i.fa.fa-chevron-down.hidden-md-up {
+    float: right;
+}
+
+#privatkunden_tree .showup {
+    display: flex;
+}
+
+@media (max-width:768px) {
+    #privatkunden_tree .showup {
+        display: inline-block;
+    }
+    #privatkunden_tree .collapse.show {
+        display: block;
+    }
+}
+
+@media (max-width:767px) {
+    #privatkunden_tree .showup {
+        display: none;
+    }
+}

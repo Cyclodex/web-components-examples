@@ -1,0 +1,51 @@
+.form-control.error, .powermail_field_error, .parsley-error, .parsley-error:focus, .tx-powermail div.error {
+	border-color: #d51317 !important;
+}
+
+.parsley-errors-list {
+	list-style-type: none;
+}
+
+.parsley-errors-list > li {
+	/*color: #d51317;*/
+	font-size: 85%;
+}
+
+.fancybox-type-iframe .fancybox-nav {
+	width: 60px;
+}
+
+.fancybox-type-iframe .fancybox-nav span {
+	visibility: visible;
+	opacity: 0.5;
+}
+
+.fancybox-type-iframe .fancybox-nav:hover span {
+	opacity: 1;
+}
+
+.fancybox-type-iframe .fancybox-next {
+	right: -60px;
+}
+
+.fancybox-type-iframe .fancybox-prev {
+	left: -60px;
+}
+
+.checkbox-contest .picker-checkbox {
+	display:inline;
+}
+
+#parsley-id-multiple-tx_qlbuchsicontest_contactpluginagb {
+	display:inline;
+	width:200px;
+	float:left;
+	margin-top:30px
+}
+
+#filefield_place .parsley-errors-list {
+	position:absolute;
+	top:75px;
+	margin-left:-15px;
+	width:200px
+}
